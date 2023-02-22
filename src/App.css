@@ -1,0 +1,36 @@
+/* *{
+  font-family: 'Baloo 2', cursive;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Lato:wght@300&family=Montserrat:wght@300&display=swap'); */
+.navbar-nav{}
+.nav-item{margin: 10px 20px;}
+.nav-link{color: black !important;font-weight: 500 !important;}
+/* .nav-link:hover{color: #f0b90b !important;} */
+.nav-link:hover{color: #f0b90b !important;}
+/* .dropdown:hover .dropdown-menu {
+  display: block;
+} */
+/* .navbar-nav .dropdown-menu{
+  position: fixed !important;
+} */
+/* .dropdown:hover .dropdown-menu {
+  display: block !important;} */
+.dropdown-menu.show{border: none !important;box-shadow: 0px 0px 5px 0px #ccc;}
+.dropdown-item:hover, .dropdown-item:focus{
+  /* background-color: #f0b90b !important; */
+  /* background-color: #fcd535 !important; */
+  background-color: rgba(252, 213, 53,0.1) !important;
+  opacity: 0.6 !important;
+  /* color: #707a8a; */
+  /* color: rgb(236, 175, 10); */
+}
+*{
+  /* background-color: rgba(247, 247, 247, 0.969) ; */
+  /* color: #f7f7f7; */
+}
+.MuiTabs-indicator{
+  background-color:rgb(240 185 11) !important;
+}
